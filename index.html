@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LittleLearn</title>
+    <script type="text/javascript" src="src/index.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    let ll = LittleLearn.create(`
+There is an apple.Hi!I'm Harry.Hi Darry!
+`);
+    console.log(ll);
+    for (let i = 0; i < 100; i++) {
+        console.log(ll.write());
+    }
+</script>
+</body>
+</html>
